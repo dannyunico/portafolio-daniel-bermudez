@@ -49,5 +49,9 @@ $(window).scroll(function () {
   }
 });
 
-
+$('.nav-link').on('click', function (){
+  $('body').removeClass('over');
+  $('.offcanvas-collapse').removeClass('open');
+  $('.navbar-toggler').removeClass('is-active');
+});
 
