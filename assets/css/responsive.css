@@ -1,0 +1,240 @@
+@media (min-width: 0px) and (max-width: 767px){
+	.main-banner__content{
+		height: 300px;
+	}
+	.main-banner__item::before{
+		height: 250px;
+		top: 25px;
+	}
+	.main-banner__text--text{
+		font-size: 30px;
+	}
+	.main-banner__text--subtext{
+		width: 260px;
+		font-size: 14px;
+		padding: 2px 10px;
+		letter-spacing: 5px;
+	}
+	.header{
+		display: flex;
+		justify-content: flex-end;
+		background: transparent;
+	}
+	.main-banner{
+		padding-top: 0;
+	}
+	.navbar{
+		background: #ffffff;
+		border-radius: 0 0 0 20px;
+		width: max-content;
+		box-shadow: 0px 0px 5px 0px rgb(45 45 45 / 30%);
+		padding: 12px 15px;
+	}
+	.navbar .navbar-toggler{
+		padding: 0;
+	}
+	.nav-item{
+		padding: 10px 0;
+		display: flex;
+		justify-content: center;
+	}
+	.nav-link{
+		font-size: 18px;
+		padding: 0;
+	}
+	.main-about__content{
+		flex-direction: column;
+		padding: 0;
+	}
+	.main-about__img, .main-about__text{
+		width: 100%;
+	}
+	.main-about__img{
+		height: 300px;
+	}
+	.main-about__img img{
+		border-radius: 0 0 100px 0;
+	}
+	.main-about__text{
+		padding: 30px 30px 0;
+		font-size: 16px;
+		text-align: justify;
+	}
+	.title-general{
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+	.main-skills__content{
+		padding: 50px 30px 0;
+	}
+	.main-skills__items{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.skills-items__content{
+		width: 50%;
+		padding: 20px 10px;
+	}
+	.main-projects__content{
+		padding-top: 50px;
+	}
+	.project-item__content, .project-item__content:nth-child(even){
+		flex-direction: column-reverse;
+		justify-content: flex-end;
+	}
+	.project-item__content{
+		border-radius: 0 0 0 30px;
+	}
+	.project-item__content:nth-child(even){
+		border-radius: 0 0 30px 0;
+	}
+	.project-item__text{
+		width: 100%;
+		padding: 20px;
+	}
+	.project-item__content::before{
+		width: 100%;
+		height: 130px;
+		top: 0;
+	}
+	.project-item__img{
+		width: 100%;
+	}
+	.project-item__text--title{
+		font-size: 28px;
+		margin-bottom: 10px;
+	}
+	.project-item__text--text{
+		font-size: 16px;
+	}
+	.project-item__text--imgs{
+		display: flex;
+		justify-content: center;
+	}
+	.project-item__text--imgs img{
+		width: 30px;
+		height: 30px;
+		margin: 0 5px;
+	}
+	.project-item__img a, .project-item__img a img{
+		border-radius: 100px 0 100px 100px;
+	}
+	.project-item__img a{
+		border-width: 8px;
+	}
+	.main-contact__items{
+		padding: 0 30px 50px;
+		flex-direction: column;
+	}
+	.contact-item__content{
+		width: 100%;
+		height: 150px;
+		font-size: 60px;
+		margin-bottom: 30px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+	.header{
+		display: flex;
+		justify-content: flex-end;
+		background: transparent;
+	}
+	.main-banner{
+		padding-top: 0;
+	}
+	.navbar{
+		background: #ffffff;
+		border-radius: 0 0 0 20px;
+		width: max-content;
+		box-shadow: 0px 0px 5px 0px rgb(45 45 45 / 30%);
+		padding: 12px 15px;
+	}
+	.navbar .navbar-toggler{
+		padding: 0;
+	}
+	.nav-item{
+		padding: 10px 0;
+		display: flex;
+		justify-content: center;
+	}
+	.nav-link{
+		font-size: 18px;
+		padding: 0;
+	}
+	.main-banner__content{
+		height: 450px;
+	}
+	.main-banner__item::before{
+		height: 400px;
+		top: 25px;
+	}
+	.main-banner__text--text{
+		font-size: 55px;
+	}
+	.main-banner__text--subtext{
+		width: 475px;
+		font-size: 20px;
+		letter-spacing: 12px;
+	}
+	.main-about__content{
+		padding-top: 50px;
+	}
+	.main-about__text{
+		padding: 0 30px;
+	}
+	.main-skills__content{
+		padding: 50px 50px 0;
+	}
+	.main-skills__items{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.skills-items__content{
+		padding: 20px;
+	}
+	.skills-items__content img{
+		width: 150px;
+		height: 150px;
+	}
+	.main-projects__content{
+		padding-top: 50px;
+	}
+	.project-item__content{
+		height: 350px;
+	}
+	.project-item__text{
+		padding: 30px 50px;
+	}
+	.project-item__content::before{
+		width: 150px;
+	}
+	.main-contact__items{
+		padding: 0 50px 100px;
+	}
+	.contact-item__content{
+		width: 200px;
+		height: 200px;
+		font-size: 80px;
+	}
+}
+
+
+@media (min-width: 993px) and (max-width: 1200px){
+	.main-skills__content{
+		padding: 50px 50px 0;
+	}
+	.project-item__content{
+		height: 400px;
+	}
+	.project-item__content::before{
+		width: 200px;
+	}
+	.contact-item__content{
+		width: 240px;
+		height: 240px;
+	}
+	.main-contact__items{
+		padding: 0 50px 100px;
+	}
+}
