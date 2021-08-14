@@ -132,6 +132,15 @@
 		font-size: 60px;
 		margin-bottom: 30px;
 	}
+	.myModal-body img{
+		height: 200px;
+		object-fit: contain;
+	}
+	.modal-open .modal{
+	    display: flex !important;
+	    align-items: center;
+	}
+
 }
 
 @media (min-width: 768px) and (max-width: 992px){
@@ -216,6 +225,16 @@
 		width: 200px;
 		height: 200px;
 		font-size: 80px;
+	}
+	.project-item__text--imgs img{
+		width: 40px;
+		height: 40px;
+	}
+	.project-item__text--btn a{
+		margin-bottom: 15px;
+	}
+	.project-item__text--title{
+		font-size: 40px;
 	}
 }
 
