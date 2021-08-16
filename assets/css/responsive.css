@@ -121,6 +121,7 @@
 	}
 	.project-item__img a{
 		border-width: 8px;
+		pointer-events: none;
 	}
 	.main-contact__items{
 		padding: 0 30px 50px;
