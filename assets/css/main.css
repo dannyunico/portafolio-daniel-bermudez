@@ -192,6 +192,7 @@ html{
     height: 500px;
     width: 50%;
     position: relative;
+    max-width: 720px;
 }
 .main-about__text{
     width: 50%;
