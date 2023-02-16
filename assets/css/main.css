@@ -223,8 +223,8 @@ html{
 
 
 
-.skills-items__content{
-    
+.skills-items__content:last-child img{
+    border-radius: 0;
 }
 .skills-items__content img{
     width: 120px;
