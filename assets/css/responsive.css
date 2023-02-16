@@ -109,7 +109,7 @@
 	}
 	.project-item__text--imgs{
 		display: flex;
-		justify-content: center;
+		justify-content: space-between;
 	}
 	.project-item__text--imgs img{
 		width: 30px;
