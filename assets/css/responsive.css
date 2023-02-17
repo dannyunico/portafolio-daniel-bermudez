@@ -134,11 +134,9 @@
 		margin-bottom: 30px;
 	}
 	.myModal-body img{
-		height: 200px;
 		object-fit: contain;
 	}
 	.modal-open .modal{
-	    display: flex !important;
 	    align-items: center;
 	}
 
